@@ -1,0 +1,24 @@
+{
+  "name": "Wrapper",
+  "itcssNamespace": "o-wrapper",
+  "modifiers": {
+    "from@": [
+      "xs",
+      "sm",
+      "sml",
+      "md",
+      "lg",
+      "xl",
+      "xxl"
+    ],
+    "to@": [
+      "xs",
+      "sm",
+      "sml",
+      "md",
+      "lg",
+      "xl",
+      "xxl"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Box",
+  "itcssNamespace": "o-box",
+  "modifiers": {
+    "space": [
+      "none",
+      "tiny",
+      "small",
+      "medium",
+      "large",
+      "huge"
+    ]
+  },
+  "nested": {
+    "Box.Content": {}
+  }
+}

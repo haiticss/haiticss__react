@@ -1,0 +1,16 @@
+{
+  "name": "Crop",
+  "itcssNamespace": "o-crop",
+  "nested": {
+    "Crop.Content": {
+      "modifiers": {
+        "alignment": [
+          "left",
+          "center",
+          "right",
+          "bottom"
+        ]
+      }
+    }
+  }
+}

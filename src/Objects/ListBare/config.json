@@ -1,0 +1,7 @@
+{
+  "name": "ListBare",
+  "itcssNamespace": "o-list-bare",
+  "nested": {
+    "li": {}
+  }
+}

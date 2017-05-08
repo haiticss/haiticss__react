@@ -1,0 +1,25 @@
+{
+  "name": "Block",
+  "itcssNamespace": "o-block",
+  "modifiers": {
+    "space": [
+      "none",
+      "tiny",
+      "small",
+      "medium",
+      "large",
+      "huge"
+    ],
+    "alignment": [
+      "left",
+      "center",
+      "right"
+    ],
+    "stretch": null
+  },
+  "nested": {
+    "Block.Header": {},
+    "Block.Body": {},
+    "Block.Footer": {}
+  }
+}

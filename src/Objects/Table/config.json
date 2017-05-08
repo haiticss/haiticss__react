@@ -1,0 +1,21 @@
+{
+  "name": "Table",
+  "itcssNamespace": "o-table",
+  "modifiers": {
+    "space": [
+      "none",
+      "tiny",
+      "small",
+      "medium"
+    ],
+    "fixed": null
+  },
+  "nested": {
+    "tr": {
+      "nested": {
+        "th": {},
+        "td": {}
+      }
+    }
+  }
+}

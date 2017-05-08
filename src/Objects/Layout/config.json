@@ -1,0 +1,25 @@
+{
+  "name": "Layout",
+  "itcssNamespace": "",
+  "modifiers": {
+    "space": [
+      "none",
+      "tiny",
+      "small",
+      "medium"
+    ],
+    "v-alignment": [
+      "top",
+      "middle",
+      "bottom"
+    ],
+    "h-alignment": [
+      "left",
+      "center",
+      "right"
+    ]
+  },
+  "nested": {
+    "Layout.Item": {}
+  }
+}
