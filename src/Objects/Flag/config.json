@@ -2,18 +2,30 @@
   "name": "Flag",
   "itcssNamespace": "o-flag",
   "modifiers": {
-    "space": [
-      "none",
-      "tiny",
-      "small",
-      "medium"
-    ],
-    "alignment": [
-      "top",
-      "middle",
-      "bottom"
-    ],
-    "reverse": null
+    "space": {
+      "bemName": "space",
+      "values": [
+        "none",
+        "tiny",
+        "small",
+        "medium"
+      ]
+    },
+    "alignment": {
+      "bemName": "",
+      "values": [
+        "top",
+        "middle",
+        "bottom"
+      ]
+    },
+    "reverse": {
+      "bemName": "reverse",
+      "values": [
+        true,
+        false
+      ]
+    }
   },
   "nested": {
     "Flag.Img": {},

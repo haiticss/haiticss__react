@@ -2,20 +2,32 @@
   "name": "Block",
   "itcssNamespace": "o-block",
   "modifiers": {
-    "space": [
-      "none",
-      "tiny",
-      "small",
-      "medium",
-      "large",
-      "huge"
-    ],
-    "alignment": [
-      "left",
-      "center",
-      "right"
-    ],
-    "stretch": null
+    "space": {
+      "bemName": "space",
+      "values": [
+        "none",
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "huge"
+      ]
+    },
+    "alignment": {
+      "bemName": "",
+      "values": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
+    "stretch": {
+      "bemName": "stretch",
+      "values": [
+        true,
+        false
+      ]
+    }
   },
   "nested": {
     "Block.Header": {},

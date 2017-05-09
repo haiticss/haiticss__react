@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Block, Box, Crop, Flag, Layout, ListBare, Ratio, Table, Wrapper } from './Objects';
+import { PlayGround } from './PlayGround';
 
 class App extends Component {
   render() {
@@ -65,24 +66,29 @@ class App extends Component {
         <h1>Objects__Table</h1>
         <hr/>
         <Table className="o-table--debug" spacing="small">
-            <tr>
-                <th>Lorem ipsum</th>
-                <th>Lorem</th>
-            </tr>
-            <tr>
-                <td>Dolor sit amet</td>
-                <td>Ipsum</td>
-            </tr>
-            <tr>
-                <td>Consecteur elit</td>
-                <td>Dolor</td>
-            </tr>
+            <tbody>
+                <tr>
+                    <th>Lorem ipsum</th>
+                    <th>Lorem</th>
+                </tr>
+                <tr>
+                    <td>Dolor sit amet</td>
+                    <td>Ipsum</td>
+                </tr>
+                <tr>
+                    <td>Consecteur elit</td>
+                    <td>Dolor</td>
+                </tr>
+            </tbody>
         </Table>
         <h1>Objects__Wrapper</h1>
         <hr/>
         <Wrapper className="o-wrapper--debug" from="sml" to="sm">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fuga illum iure molestiae, mollitia optio rerum! Culpa inventore itaque perferendis veniam voluptas. Animi facere fugit magnam nesciunt, perferendis veritatis voluptates.</p>
         </Wrapper>
+      <PlayGround className="o-wrapper--debug" object={Wrapper}>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fuga illum iure molestiae, mollitia optio rerum! Culpa inventore itaque perferendis veniam voluptas. Animi facere fugit magnam nesciunt, perferendis veritatis voluptates.</p>
+      </PlayGround>
       </div>
     );
   }

@@ -1,23 +1,32 @@
 {
   "name": "Layout",
-  "itcssNamespace": "",
+  "itcssNamespace": "o-layout",
   "modifiers": {
-    "space": [
-      "none",
-      "tiny",
-      "small",
-      "medium"
-    ],
-    "v-alignment": [
-      "top",
-      "middle",
-      "bottom"
-    ],
-    "h-alignment": [
-      "left",
-      "center",
-      "right"
-    ]
+    "space": {
+      "bemName": "space",
+      "values": [
+        "none",
+        "tiny",
+        "small",
+        "medium"
+      ]
+    },
+    "v-alignment": {
+      "bemName": "",
+      "values": [
+        "top",
+        "middle",
+        "bottom"
+      ]
+    },
+    "h-alignment": {
+      "bemName": "",
+      "values": [
+        "left",
+        "center",
+        "right"
+      ]
+    }
   },
   "nested": {
     "Layout.Item": {}
