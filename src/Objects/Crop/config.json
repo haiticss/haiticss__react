@@ -4,12 +4,15 @@
   "nested": {
     "Crop.Content": {
       "modifiers": {
-        "alignment": [
-          "left",
-          "center",
-          "right",
-          "bottom"
-        ]
+        "alignment": {
+          "bemName": "",
+          "values": [
+            "left",
+            "center",
+            "right",
+            "bottom"
+          ]
+        }
       }
     }
   }

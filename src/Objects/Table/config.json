@@ -2,13 +2,22 @@
   "name": "Table",
   "itcssNamespace": "o-table",
   "modifiers": {
-    "space": [
-      "none",
-      "tiny",
-      "small",
-      "medium"
-    ],
-    "fixed": null
+    "space": {
+      "bemName": "space",
+      "values": [
+        "none",
+        "tiny",
+        "small",
+        "medium"
+      ]
+    },
+    "fixed": {
+      "bemName": "fixed",
+      "values": [
+        true,
+        false
+      ]
+    }
   },
   "nested": {
     "tr": {
